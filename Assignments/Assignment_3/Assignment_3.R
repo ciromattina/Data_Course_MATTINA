@@ -286,7 +286,7 @@ therowsiwant <- iris$Species %in% c("setosa","virginica")
 iris[therowsiwant,]
 
 iris$Sepal.Length >=5.1
-myrows <- iris$Sepal.Length >=5
+myrows <- iris$Sepal.Length >=6
 iris[myrows,]
 
 dim(iris[myrows,])
@@ -296,8 +296,25 @@ my_iris <- iris[myrows,]
 table(my_iris$Species)
 table(iris$Species)
 myrows
+show(myrows)
 
 iris[iris$Species != "versicolor",]
+
+4!=3
+
+iris[iris$Species != "versicolor",]
+
+iris[iris$Species %in% c("setosa","virginica"),]
+
+
+read.csv("./setosa_and_virginica.csv")
+
+
+
+
+
+
+
 
 
 
@@ -312,11 +329,10 @@ jpeg("./My_Scatterplot.jpg")
 plot(x=dat$Sepal.Length, y=dat$Sepal.Width, col=dat$Species, main= "Awesome_Flower_Scatterplot", xlab = "Sepal_Length", ylab = "Sepal_Width")
 dev.off()
 # 3.  Subset the Iris data set to only include rows from the setosa and virginica Species
-therowsiwant <- iris$Species %in% c("setosa","virginica")
-iris[therowsiwant,]
+iris[iris$Species %in% c("setosa","virginica"),]
 
 # 4.  Write code to save this new subset as a .csv file called setosa_and_virginica.csv
-write.csv(iris[therowsiwant,],"./setosa_and_virginica.csv")
+write.csv(iris[iris$Species %in% c("setosa","virginica"),],"./setosa_and_virginica.csv")
 
 # 5.  Upload this R script (with all answers filled in and tasks completed) to canvas and GitHub
       # I should be able to run your R script and get all the plots created and saved, etc.
