@@ -1,0 +1,3 @@
+So the data that I want to work with is the location data that I collected for the research project I am doing. Right now the data I have is gps coordinates of plants that I have added envronmental factors to so that we can try and determine what makes this plant grow where it does. Hopefully I can add more data to the mix, like more in depth climate data and also soil data. 
+My main goal with this project is to create an accurate map of the potential grow spots of Pediomelum, the plant I am studying. 
+So a lot of the supplimentary data will be coming from world clim. That is where I will get my climate data, and hopefully I can add soil data that we have collected as well to the mix. 
