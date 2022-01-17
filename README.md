@@ -29,3 +29,4 @@ Disney world is larger than 17 actual countries
  The only vegetable that is never sold frozen, canned, processed, cooked, or in any other form but fresh is lettuce.
  80% of people check their smartphones within 15 minutes of waking up.
   A scorpion can hold its breath for 1 week.
+ When baby monkeys are born they grab their mother’s legs and pull themselves out.
