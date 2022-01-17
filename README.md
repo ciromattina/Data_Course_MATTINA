@@ -27,3 +27,4 @@ Disney world is larger than 17 actual countries
  About 350 slices of pizza are sold every second
  It would take about 1.2 million mosquitoes to drain the average human of all blood.
  The only vegetable that is never sold frozen, canned, processed, cooked, or in any other form but fresh is lettuce.
+ 80% of people check their smartphones within 15 minutes of waking up.
